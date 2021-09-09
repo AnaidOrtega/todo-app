@@ -6,7 +6,7 @@ You can log in with the following credentials: <br/>
 EMAIL: email@gmail.com <br/>
 PASSWORD: password123 
 
-##CONTENT 
+## CONTENT 
 - Formik is used in the Login form <br/>
 - Example of a simulated API call is used in UserDuck.js <br/>
 - Example of Hooks are mostly used in screen MyTasks <br/>
