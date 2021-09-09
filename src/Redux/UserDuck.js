@@ -1,3 +1,5 @@
+
+
 //CONSTANTS 
     const initialState = {
         user: null   
@@ -19,7 +21,22 @@ export default function userReducer  (state = initialState, action)  {
 
 //ACTIONS
 export const setUser = (user) => async (dispatch) => {
-    try {  
+    try {   
+
+        /* SIMULATED POST API REQUEST
+        axios.post('/users', user).then(response => {
+            console.log(response);
+            // if the status code is 200 
+                    dispatch({
+            type: LOGGED_USER, 
+            payload: user
+        }) 
+        localStorage.setItem("loggedUser", JSON.stringify(user));
+        }).catch(e => {
+            console.log(e);
+        });
+        */
+
         dispatch({
             type: LOGGED_USER, 
             payload: user
